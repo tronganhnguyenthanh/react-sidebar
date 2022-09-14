@@ -1,0 +1,19 @@
+.responsive{
+  display:flex;
+  justify-content:space-around
+}
+
+@media (max-width:768px){
+  .responsive{
+    position:absolute;
+    top:56%;
+    left:22%    
+  }
+}
+@media (max-width:576px){
+  .responsive{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column
+  }
+}
