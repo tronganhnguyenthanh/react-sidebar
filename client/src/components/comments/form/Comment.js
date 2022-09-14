@@ -34,22 +34,10 @@ const Comment = () => {
         }else{
           toast.error("Comment added failed", {position:"top-center"})
         }
-        //  setData(false)
-        //  setData(init_data)
          return true
        })
     }
   }
-  // const [day, setDay] = useState(new Date())
-  // useEffect(() => {
-  //   let id = setInterval(() => {
-  //     console.log(day)
-  //     setDay(day);
-  //   }, 1000);
-  //   return () => clearInterval(id);
-  // })
-
-  // console.log('hourse',day.getHours()+'::'+day.getMinutes())
   return (
    <form className="flex flex-col gap-4">
     
